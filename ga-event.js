@@ -1,10 +1,13 @@
 /**
  * Google Analytics Event Tracking
- * Methods for binding event tracking to DOM elements using data attributes.
- * Also provides a simple method for sending events programatically.
- *
+ * Methods for binding Google Analytics event tracking to DOM elements using data attributes. 
+ * Also provides a simple method for sending events programatically. *
+ * 
  * @param function ga The Google Analytics object
  * @param boolean cookiesEnabled Flag to identify if the user allows cookies (EU)
+ * @author  A. Harvey [v0.1]
+ * @version  0.1
+ * @since  0.1
  * @return object
  */
 
