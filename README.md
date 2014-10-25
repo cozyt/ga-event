@@ -10,3 +10,7 @@ Methods for binding Google Analytics event tracking to DOM elements using data a
 
 - JQuery
 - Google Analytics Object
+
+## Roadmap
+
+Remove dependency on JQuery
