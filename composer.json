@@ -13,6 +13,6 @@
 		{ "type": "git", "url": "git@bitbucket.org:cozyt/analytics.git" }
 	],
 	"require": {
-		"cozyt/analytics": "dev-master"
+		"cozyt/analytics": "0.1.*"
 	}
 }
