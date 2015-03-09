@@ -32,11 +32,7 @@ var gaEvent = {
      * @return void
      */
     send: function(element, category, action, label, val, nonint) {
-        if(
-            typeof ga === 'function' &&
-            typeof cookiesEnabled !== 'undefined' &&
-            cookiesEnabled !== false
-        ) {
+        if(gaEvent.isset() === true) {
 
             if(typeof category === 'undefined') {
                 category = element.data('category');
@@ -77,6 +73,21 @@ var gaEvent = {
 
             ga('send', 'event', category, action, label, val, nonint);
         }
+    },
+
+
+    /**
+     * Confirms that the ga function exists before sending events
+     *
+     * @author  A. Harvey @since 0.1
+     * @version  0.1
+     * @since  0.1
+     * @return void
+     */
+    isset: function() {
+        return  typeof ga === 'function' &&
+                typeof cookiesEnabled !== 'undefined' &&
+                cookiesEnabled !== false;
     },
 
 
