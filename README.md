@@ -14,7 +14,7 @@ Add the package to your `bower.json` file. As it's not yet registered on bower, 
     {
          "dependencies": {
              ...
-             "socializr": "git@github.com:cozyt/ga-event.git#v0.1.1"
+             "ga-event": "git@github.com:cozyt/ga-event.git#v0.1.1"
          }
     }
     ```
