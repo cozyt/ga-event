@@ -4,7 +4,7 @@ Methods for binding Google Analytics event tracking to DOM elements using data a
 
 ## Version
 
-0.1
+0.1.3
 
 ## Installation
 
@@ -14,7 +14,7 @@ Add the package to your `bower.json` file. As it's not yet registered on bower, 
     {
          "dependencies": {
              ...
-             "ga-event": "git@github.com:cozyt/ga-event.git#v0.1.1"
+             "ga-event": "https://github.com/cozyt/ga-event.git#v0.1.3"
          }
     }
     ```
