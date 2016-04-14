@@ -8,11 +8,5 @@
 			"name": "A Harvey",
 			"homepage": "https://bitbucket.org/cozyt"
 		}
-	],
-	"repositories": [
-		{ "type": "git", "url": "git@bitbucket.org:cozyt/analytics.git" }
-	],
-	"require": {
-		"cozyt/analytics": "0.1.*"
-	}
+	]
 }
