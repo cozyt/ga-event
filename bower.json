@@ -1,6 +1,6 @@
 {
-  "name": "cozyt/ga-event",
-  "description": "Methods for binding Google Analytics event tracking to DOM elements using data attributes. Also provides a simple method for sending events programatically.",
-  "version": "0.1.3",
+  "name": "ga-event",
+  "description": "Methods for sending programatically Google Analytics event tracking and binding to DOM elements using data attributes",
+  "version": "0.1.4",
   "main": "ga-event.js"
 }
